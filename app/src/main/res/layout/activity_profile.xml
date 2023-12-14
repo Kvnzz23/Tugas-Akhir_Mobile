@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".ProfileActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:title="Movie List"
+        app:titleTextColor="@color/orange"
+        app:titleMarginStart="75dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:onClick="back"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/baseline_arrow_back_24"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/profile"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/profile"
+        android:id="@+id/PP"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Name"
+        android:layout_below="@+id/PP"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profileNama"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Email"
+        android:layout_below="@+id/profileNama"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profileEmail"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Phone"
+        android:layout_below="@+id/profileEmail"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profilePhone"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:id="@+id/profileLogout"
+        android:layout_below="@+id/profilePhone"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/orange"
+        android:layout_marginTop="250dp"
+        android:text="LOGOUT"/>
+
+</RelativeLayout>

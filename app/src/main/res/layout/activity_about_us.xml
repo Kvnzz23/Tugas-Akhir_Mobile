@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/orange"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:title="About"
+        app:titleTextColor="@color/orange"
+        app:titleMarginStart="75dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:onClick="back"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/baseline_arrow_back_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT APP"
+        android:id="@+id/aboutapp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/aboutapp"
+        android:layout_marginTop="20dp"
+        android:text="Aplikasi ini adalah aplikasi movie yang kami buat. Aplikasi ini menyediakan fitur profile, login, wishlist. Kami membuat ini dengan menggunakan API movie dari JSON generator dan API dari Firebase."
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dev"
+        android:text=" ABOUT DEVELOPER"
+        android:textStyle="bold"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/kevin"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/dev"
+        android:id="@+id/fKevin"
+
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dev"
+        android:layout_toRightOf="@id/fKevin"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:id="@+id/kText"
+        android:text="Kevin Herlambang"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/fKevin"
+        android:layout_below="@id/kText"
+    android:text="SMKN 2 SURAKARTA"
+    android:textSize="15sp"
+        android:layout_marginTop="5dp"
+    android:layout_marginLeft="18sp"/>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/fauzan"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/fKevin"
+        android:id="@+id/ffauzan"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fKevin"
+        android:layout_toRightOf="@id/ffauzan"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:id="@+id/fText"
+        android:text="MHD FAUZAN LUBIS"
+        android:textSize="23sp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/fKevin"
+        android:layout_below="@id/fKevin"
+    android:text="SMKN 2 SURAKARTA"
+    android:textSize="15sp"
+        android:layout_marginTop="95dp"
+    android:layout_marginLeft="18sp"/>
+
+
+
+</RelativeLayout>

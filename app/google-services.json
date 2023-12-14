@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951129300974",
+    "project_id": "login-register-cloudfire",
+    "storage_bucket": "login-register-cloudfire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951129300974:android:c7fe319cf5d1f861ccb8ff",
+        "android_client_info": {
+          "package_name": "com.example.projectapk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ1_tWKS5of3LbBTpkg9Edz2-ej74n7Vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951129300974:android:045ff303affad73eccb8ff",
+        "android_client_info": {
+          "package_name": "com.example.tugasandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ1_tWKS5of3LbBTpkg9Edz2-ej74n7Vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
